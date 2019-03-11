@@ -7,6 +7,9 @@ $(function() {
 
   var start_ts = Math.floor(new Date(year, month - 1, day).getTime() / 1000);
   var now_ts = Math.floor(Date.now() / 1000);
+  if (start_ts < 0 || now_ts < start_ts) {
+    return;
+  }
 
   var end_sec = 60 * 60 * 24 * 365 * 80;
   var now_sec = now_ts - start_ts;
