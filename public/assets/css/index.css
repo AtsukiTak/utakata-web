@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.contents {
+  margin-top: 30vh;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.pre-desc {
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.suf-desc {
+  text-align: right;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#clock {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+#clock .int {
+  font-size: 60px;
+}
+
+#clock .frac {
+  font-size: 45px;
+}
